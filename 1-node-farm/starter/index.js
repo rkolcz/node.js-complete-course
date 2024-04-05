@@ -29,7 +29,7 @@ const http = require('http');
 // console.log('Will read file!');
 
 
-///////<------SERVER------>/////////
+///////<------SERVER------>//////////
 
 const server = http.createServer((req, res) => {
     res.end('Hej tam z servera!');
